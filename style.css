@@ -1,14 +1,87 @@
 html {
-  background-color: black;
+  background-image: url("http://i.imgur.com/zH7Wu8n.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  font-family: fantasy;
+  min-height: 100%;
 }
 
-#mane {
-  color: white;
+body {
+  color: black;
   width: 80vw;
   margin: 0 10vw 0 10vw;
+}
+
+main {
+  background-color: silver;
+  opacity: .8;
 }
 
 h1 {
   text-align:center;
   color: green;
+}
+
+h3 {
+  color: navy;
+  text-indent: 30px;
+  padding-top: 15px;
+}
+
+#introp {
+  margin-left: 30px;
+}
+
+#family {
+  width: 80vw;
+  margin: 20px auto 20px auto;
+  color: maroon;
+  text-align: center;
+  padding: 0 .5%;
+}
+
+#family h5 {
+  text-align: center;
+  color: black;
+  font-size: 18px;
+}
+
+.family-member {
+  width: 30%;
+  background-color: white;
+  height: auto;
+  display: inline-block;
+  padding: 0%;
+  text-align: left;
+  float: left;
+  margin: 1%;
+  padding: .5%;
+  /*border: 1px solid red;*/
+}
+
+.family-member-pic {
+  width: 100%;
+  height: 150px;
+  border: 0px solid green;
+  border-radius: 125px;
+  background-color: green;
+}
+
+/*.family-member-bio {*/
+  /*min-height: 150px;*/
+/*}*/
+
+#jump {
+  display: block;
+  text-align: center;
+}
+
+#mygif {
+  display: block;
+  margin: 0px auto;
+}
+
+#futurep {
+  padding: 15px 10px;
 }
