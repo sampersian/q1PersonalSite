@@ -118,7 +118,8 @@ main > h3 {
   height: 300px;
   border: 0px solid green;
   border-radius: 150px;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-size: cover;
+  background-position: 50% 50%;
 }
 
 .family-member-pic:hover {
